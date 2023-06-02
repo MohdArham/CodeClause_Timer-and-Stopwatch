@@ -33,6 +33,5 @@ This Timer and Stopwatch application allows you to track time with precision and
 
 This project is licensed under the MIT License.
 
-## Contributing
-
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+## Link
+https://mohdarham.github.io/CodeClause_Timer-and-Stopwatch/
