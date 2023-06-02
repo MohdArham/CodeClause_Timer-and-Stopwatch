@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,10 +7,7 @@
     <title>Timer Clock</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <!-- HEADER -->
-
     <audio id="beep" src="./assets/beep.mp3"></audio>
     <h1>TIMER</h1>
     <div class="homeContainer">
@@ -22,11 +18,9 @@
             <div class="webLink">STOPWATCH</div>
         </a>
     </div>
-    <!-- HEADER -->
     <div id="titleContainer">
         <p id="timer" class="stopwatchStyle">00:00:00</p>
     </div>
-
     <div class="allContainer">
         <div class="inputContainer">
             <input onchange="changeHour()" type="number" id="h" placeholder="Hours">
@@ -40,5 +34,4 @@
     </div>
 </body>
 <script src="js/timer.js"></script>
-
 </html>
