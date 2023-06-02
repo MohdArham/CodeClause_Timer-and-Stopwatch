@@ -1,14 +1,14 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(90deg,#fa3c8f,#f27b36);
+    background: linear-gradient(90deg,#fa3f3c,#2d305b);
 }
 
 h1{
     text-align: center;
-    font-size: 41px;
+    font-size: 50px;
     margin: 36px;
-    font-family: Algerian;
-    color: #f8f52a;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
 }
 .webLink{
     display: flex;
@@ -17,7 +17,7 @@ h1{
     height: 65px;
     width: 175px;
     background-color: cornflowerblue;
-    margin: 10px;
+    margin: 30px;
     font-size: 26px;
     transition-property: all;
     transition-duration: 0.5s;
@@ -32,7 +32,7 @@ a{
 }
 
 .webLink:hover{
-    background-color:#191971;
+    background-color:#fa3f3c;
     color: white;
 }
 #stopWatchContainer{
@@ -73,7 +73,7 @@ a{
 
 .startButton:hover{
     color: white;
-    background-color: #191971;
+    background-color: #fa3f3c;
 }
 .inputContainer{
     margin-bottom: 50px;
