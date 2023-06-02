@@ -51,7 +51,6 @@ function startTimer() {
         }, 500)
     }
 
-    // seconds
     if (second === -1) {
         second = 59
         minute--
@@ -66,7 +65,6 @@ function startTimer() {
         hour = 0
     }
 
-    // Hours
     if (hour == "") {
         hour = 0
     }
@@ -77,7 +75,6 @@ function startTimer() {
         displayH = hour
     }
 
-    // Minutes
     if (minute == "") {
         minute = 0
     }
@@ -119,7 +116,6 @@ function changeHour() {
 
     timer.innerHTML = displayH + ":" + displayM + ":" + displayS
 }
-
 function changeMinute() {
     let m = document.getElementById("m")
     let timer = document.getElementById("timer")

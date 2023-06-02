@@ -5,18 +5,12 @@ let count
 let s = 0
 let m = 0
 let h = 0
-
 let displayS = 0
 let displayM = 0
 let displayH = 0
-
 status = "stopped"
-
 function startClock(){
-
     s++
-
-    // Logic to increment value
     if(s === 60){
         m ++;
         s = 0;
@@ -27,7 +21,6 @@ function startClock(){
         }
     }
 
-    // logicc to add a 0 for display
     if (s < 10){
         displayS = "0" + s.toString()
     }else{
