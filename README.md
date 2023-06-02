@@ -34,4 +34,4 @@ This Timer and Stopwatch application allows you to track time with precision and
 This project is licensed under the MIT License.
 
 ## Link
-https://mohdarham.github.io/CodeClause_Timer-and-Stopwatch/
+[Open Timer and Stopwatch App](https://mohdarham.github.io/CodeClause_Timer-and-Stopwatch/){:target="_blank"}
